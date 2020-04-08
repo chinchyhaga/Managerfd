@@ -42,6 +42,7 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.formpanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.button14 = new System.Windows.Forms.Button();
             this.subpanel.SuspendLayout();
             this.statuspanel.SuspendLayout();
             this.toolpanel.SuspendLayout();
@@ -177,10 +178,11 @@
             this.toolpanel.Controls.Add(this.button12);
             this.toolpanel.Controls.Add(this.button11);
             this.toolpanel.Controls.Add(this.button13);
+            this.toolpanel.Controls.Add(this.button14);
             this.toolpanel.Location = new System.Drawing.Point(0, 309);
             this.toolpanel.Margin = new System.Windows.Forms.Padding(0);
             this.toolpanel.Name = "toolpanel";
-            this.toolpanel.Size = new System.Drawing.Size(250, 120);
+            this.toolpanel.Size = new System.Drawing.Size(250, 160);
             this.toolpanel.TabIndex = 3;
             // 
             // button12
@@ -232,7 +234,7 @@
             this.button13.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.button13.Size = new System.Drawing.Size(250, 40);
             this.button13.TabIndex = 2;
-            this.button13.Text = "Guest List";
+            this.button13.Text = "Modify";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
@@ -244,7 +246,7 @@
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button15.Location = new System.Drawing.Point(0, 429);
+            this.button15.Location = new System.Drawing.Point(0, 469);
             this.button15.Margin = new System.Windows.Forms.Padding(0);
             this.button15.Name = "button15";
             this.button15.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -264,6 +266,24 @@
             this.formpanel.Size = new System.Drawing.Size(806, 588);
             this.formpanel.TabIndex = 0;
             this.formpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.formpanel_Paint);
+            // 
+            // button14
+            // 
+            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button14.Location = new System.Drawing.Point(0, 120);
+            this.button14.Margin = new System.Windows.Forms.Padding(0);
+            this.button14.Name = "button14";
+            this.button14.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
+            this.button14.Size = new System.Drawing.Size(250, 40);
+            this.button14.TabIndex = 3;
+            this.button14.Text = "Guest List";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // Form1
             // 
@@ -306,6 +326,7 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.FlowLayoutPanel formpanel;
+        private System.Windows.Forms.Button button14;
     }
 }
 

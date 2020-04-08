@@ -1,6 +1,6 @@
 ﻿namespace Manager
 {
-    partial class Form3
+    partial class Form4
     {
         /// <summary>
         /// Required designer variable.
@@ -46,7 +46,7 @@
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(788, 53);
-            this.panel2.TabIndex = 1;
+            this.panel2.TabIndex = 2;
             // 
             // button3
             // 
@@ -70,9 +70,9 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Location = new System.Drawing.Point(71, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(618, 39);
+            this.label4.Size = new System.Drawing.Size(590, 39);
             this.label4.TabIndex = 0;
-            this.label4.Text = "DANH SÁCH CÁC CHUYẾN CÒN BAY";
+            this.label4.Text = "DANH SÁCH CÁC CHUYẾN ĐÃ BAY";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dataGridView1
@@ -85,18 +85,17 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(788, 488);
-            this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.TabIndex = 3;
             // 
-            // Form3
+            // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(788, 541);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel2);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Name = "Form4";
+            this.Text = "Form4";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

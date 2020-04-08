@@ -48,18 +48,19 @@ namespace Manager
         private void searchbutton_Click(object sender, EventArgs e)
         {
             openChildForm(new Form2());
-            hideSubMenu();
+            //hideSubMenu();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             openChildForm(new Form3());
-            hideSubMenu();
+            //hideSubMenu();
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            openChildForm(new Form4());
+            //hideSubMenu();
         }
 
         private void toolbutton_Click(object sender, EventArgs e)
@@ -103,6 +104,11 @@ namespace Manager
         private void formpanel_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
         }
     }
 }
