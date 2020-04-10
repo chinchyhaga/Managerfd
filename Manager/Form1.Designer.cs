@@ -40,9 +40,9 @@
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.formpanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.button14 = new System.Windows.Forms.Button();
             this.subpanel.SuspendLayout();
             this.statuspanel.SuspendLayout();
             this.toolpanel.SuspendLayout();
@@ -92,9 +92,9 @@
             // 
             // statuspanel
             // 
-            this.statuspanel.Controls.Add(this.searchbutton);
             this.statuspanel.Controls.Add(this.button9);
             this.statuspanel.Controls.Add(this.button10);
+            this.statuspanel.Controls.Add(this.button12);
             this.statuspanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.statuspanel.Location = new System.Drawing.Point(0, 149);
             this.statuspanel.Margin = new System.Windows.Forms.Padding(0);
@@ -104,7 +104,6 @@
             // 
             // searchbutton
             // 
-            this.searchbutton.Dock = System.Windows.Forms.DockStyle.Top;
             this.searchbutton.FlatAppearance.BorderSize = 0;
             this.searchbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.searchbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -115,7 +114,7 @@
             this.searchbutton.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.searchbutton.Size = new System.Drawing.Size(250, 40);
             this.searchbutton.TabIndex = 0;
-            this.searchbutton.Text = "Search";
+            this.searchbutton.Text = "Manage";
             this.searchbutton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.searchbutton.UseVisualStyleBackColor = true;
             this.searchbutton.Click += new System.EventHandler(this.searchbutton_Click);
@@ -127,7 +126,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button9.Location = new System.Drawing.Point(0, 40);
+            this.button9.Location = new System.Drawing.Point(0, 0);
             this.button9.Margin = new System.Windows.Forms.Padding(0);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
@@ -145,7 +144,7 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button10.Location = new System.Drawing.Point(0, 80);
+            this.button10.Location = new System.Drawing.Point(0, 40);
             this.button10.Margin = new System.Windows.Forms.Padding(0);
             this.button10.Name = "button10";
             this.button10.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
@@ -175,7 +174,7 @@
             // 
             // toolpanel
             // 
-            this.toolpanel.Controls.Add(this.button12);
+            this.toolpanel.Controls.Add(this.searchbutton);
             this.toolpanel.Controls.Add(this.button11);
             this.toolpanel.Controls.Add(this.button13);
             this.toolpanel.Controls.Add(this.button14);
@@ -187,18 +186,17 @@
             // 
             // button12
             // 
-            this.button12.Dock = System.Windows.Forms.DockStyle.Top;
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button12.Location = new System.Drawing.Point(0, 0);
+            this.button12.Location = new System.Drawing.Point(0, 80);
             this.button12.Margin = new System.Windows.Forms.Padding(0);
             this.button12.Name = "button12";
             this.button12.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.button12.Size = new System.Drawing.Size(250, 40);
             this.button12.TabIndex = 1;
-            this.button12.Text = "Add";
+            this.button12.Text = "Graph";
             this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
@@ -216,7 +214,7 @@
             this.button11.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.button11.Size = new System.Drawing.Size(250, 40);
             this.button11.TabIndex = 0;
-            this.button11.Text = "Delete";
+            this.button11.Text = "button11";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
@@ -234,10 +232,28 @@
             this.button13.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
             this.button13.Size = new System.Drawing.Size(250, 40);
             this.button13.TabIndex = 2;
-            this.button13.Text = "Modify";
+            this.button13.Text = "button12";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button14.Location = new System.Drawing.Point(0, 120);
+            this.button14.Margin = new System.Windows.Forms.Padding(0);
+            this.button14.Name = "button14";
+            this.button14.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
+            this.button14.Size = new System.Drawing.Size(250, 40);
+            this.button14.TabIndex = 3;
+            this.button14.Text = "Guest List";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -266,24 +282,6 @@
             this.formpanel.Size = new System.Drawing.Size(806, 588);
             this.formpanel.TabIndex = 0;
             this.formpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.formpanel_Paint);
-            // 
-            // button14
-            // 
-            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button14.Location = new System.Drawing.Point(0, 120);
-            this.button14.Margin = new System.Windows.Forms.Padding(0);
-            this.button14.Name = "button14";
-            this.button14.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(250, 40);
-            this.button14.TabIndex = 3;
-            this.button14.Text = "Guest List";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // Form1
             // 
